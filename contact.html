@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+    <style>
+        .index {
+    padding: 0;
+    margin-top: 0;
+    background-color: #ff7158;
+    position: relative;
+}
+
+img {
+    padding: 10px;
+    margin-top: 0;
+    max-width: 100%; /* Ensures the image does not exceed its container */
+    height: auto;
+}
+
+a {
+    color: white;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    margin-left: 50%;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 5px;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    color: red;
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+}
+
+.form {
+    width: 90%; /* Adjusted width for responsiveness */
+    max-width: 400px; /* Added maximum width for better readability on larger screens */
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid none;
+    background-color: white;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin-bottom: 12px;
+}
+
+button {
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    font-size: 17px;
+    border: 1px solid red;
+    width: 100%;
+}
+
+.button {
+    display: flex;
+    justify-content: bottom;
+    margin-left: 0; /* Adjusted margin-left to center the button */
+    margin-top: 5%;
+    margin-bottom: 5px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="index">
+        <img src="images/devitapes.png" alt="DEVI TAPES" width="150px" height="100px"/> <!-- Added alt attribute -->
+    </div>
+    <div class="home">
+        <a href="index.html">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="contact.html">CONTACT</a>
+        <a href="blog.html">OUR BLOG</a>
+    </div>
+    <div class="body"> <!-- Added a container div -->
+        <div class="form">
+            <h2>ENQUIRY NOW</h2>
+            <form>
+                <input type="text" placeholder="Full Name" />
+                <input type="tel" placeholder="Phone No" /> <!-- Changed type to tel for phone number input -->
+                <input type="email" placeholder="Email" />
+                <input type="text" placeholder="Company" />
+                <input type="text" placeholder="Address" />
+                <input type="tel" placeholder="Fax No" /> <!-- Changed type to tel for fax number input -->
+                <div class="button">
+                    <button type="submit"><a href="enquiry.html">ENQUIRE NOW</a></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
